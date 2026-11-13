@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!--
+  One go-import tag per module root. The go command fetches
+  https://go.kirto.dev/<path>?go-get=1 and takes the tag whose root the
+  path starts with, by path element, so this one page answers every
+  module and package under every root. 404.html is the same page: the
+  go command reads the tags from a 404's body too.
+-->
+<meta name="go-import" content="go.kirto.dev/apimachinery git https://github.com/kirto-dev/apimachinery">
+<meta name="go-import" content="go.kirto.dev/platform git https://github.com/kirto-dev/platform">
+<meta name="go-import" content="go.kirto.dev/flow-broker git https://github.com/kirto-dev/flow-broker">
+<meta name="go-import" content="go.kirto.dev/flow git https://github.com/kirto-dev/flow">
+<meta name="go-import" content="go.kirto.dev/flow-sdk git https://github.com/kirto-dev/flow sdk">
+<meta name="go-import" content="go.kirto.dev/gate git https://github.com/kirto-dev/gate">
+<meta name="go-import" content="go.kirto.dev/flow-conformance git https://github.com/kirto-dev/flow-conformance">
+<meta http-equiv="refresh" content="0; url=https://github.com/kirto-dev">
+<title>go.kirto.dev</title>
+</head>
+<body>
+<p>Go modules of Kirto, at <a href="https://github.com/kirto-dev">github.com/kirto-dev</a>.</p>
+</body>
+</html>
