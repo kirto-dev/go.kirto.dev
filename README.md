@@ -29,7 +29,7 @@ error only when the body holds none (`metaImportsForPrefix` in
 added. When the SDK moves to a repository of its own, its tag loses that
 field.
 
-A browser is sent on to the organization's GitHub page.
+A browser is sent on to the documentation at kirto.com/docs.
 
 The tags name private repositories, so this repository is public and their
 names are too. Their contents are not: fetching one needs a credential,
